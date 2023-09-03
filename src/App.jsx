@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Cabecalho from "./components/Cabecalho";
+import Cabecalho from "./components/cabecalho";
 import Rodape from "./Components/Rodape";
 
 export default function App() {
