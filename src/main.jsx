@@ -5,15 +5,17 @@ import App from './App.jsx'
 
 //BLOCO DE ROTAS
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import EditarProdutos from './routes/EditarProdutos.jsx';
-import Erro404 from './routes/Erro404.jsx';
-import Home from './routes/Home.jsx';
-import Produtos from './routes/Produtos.jsx';
-import ExcluirProdutos from './routes/ExcluirProdutos.jsx';
+import Home from './routes/Home/index.jsx';
+import Produtos from './routes/Produtos/index.jsx';
+import EditarProdutos from './routes/EditarProdutos/index.jsx';
+import ExcluirProdutos from './routes/ExcluirProdutos/index.jsx';
+import Erro404 from './routes/Erro404/index.jsx';
+
 
 //Criando o objeto de rotas
 const router = createBrowserRouter([
-  { path: '/', element: <App />,
+  { path: '/', 
+      element: <App />,
       errorElement: <Erro404 />, 
       children: [
         { path: '/', element: <Home /> },
