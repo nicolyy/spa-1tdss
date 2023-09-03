@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom";
 import "./App.css";
+import { Outlet } from "react-router-dom";
 import Cabecalho from "./components/cabecalho";
 import Rodape from "./Components/Rodape";
+import Menu from "./Components/Menu";
 
 export default function App() {
   return (
