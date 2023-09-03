@@ -9,6 +9,8 @@ import Home from './routes/Home/index.jsx'
 import Produtos from './routes/Produtos/index.jsx'
 import Error from './routes/Error/index.jsx'
 import EditarProduto from './routes/EditarProdutos/index'
+
+
 // Configurando as rotas
 const router = createBrowserRouter([
   {
