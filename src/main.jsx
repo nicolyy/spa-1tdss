@@ -9,7 +9,7 @@ import Home from './routes/Home/index.jsx';
 import Produtos from './routes/Produtos/index.jsx';
 import EditarProdutos from './routes/EditarProdutos/index.jsx';
 import ExcluirProdutos from './routes/ExcluirProdutos/index.jsx';
-import Erro404 from './routes/Erro404/index.jsx';
+import Erro404 from './routes/Error404/index.jsx';
 
 
 //Criando o objeto de rotas
