@@ -1,21 +1,23 @@
 import { Link } from "react-router-dom";
+import './Cabecalho.css';
 
-export default function Cabecalho(){
+/*export default function Cabecalho()*/
 
-    return(
-        <>
-            <header>
-                <h1>Vite + React / Coded By - PF0670</h1>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/produtos">Produtos</Link></li>
+    function Cabecalho(){
+        return(
+            <>
+                <header>
+                        <ul>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/produtos">Produtos</Link></li>
 
-                    <li><Link to="/editar/produtos/1">Produto - 1</Link></li>
-                    <li><Link to="/editar/produtos/2">Produto - 2</Link></li>
-                    <li><Link to="/editar/produtos/3">Produto - 3</Link></li>
-                    
-                </ul>
-            </header>
-        </>
-    )
-}
+                            <li><Link to="/editar/produtos/1">Produto - 1</Link></li>
+                            <li><Link to="/editar/produtos/2">Produto - 2</Link></li>
+                            <li><Link to="/editar/produtos/3">Produto - 3</Link></li>
+                        </ul>
+                </header>
+            </>
+        )
+    }
+export default Cabecalho;
+
