@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: darkblue;
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
