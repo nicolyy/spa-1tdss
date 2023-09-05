@@ -8,12 +8,10 @@ import './Cabecalho.css';
             <>
                 <header>
                         <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/produtos">Produtos</Link></li>
+                            <li className="nav-cabecalho"><Link className="nav-link" to="/">Home</Link></li>
+                            <li className="nav-cabecalho">|</li>
+                            <li className="nav-cabecalho"><Link className="nav-link" to='/produtos'>Produtos</Link></li>
 
-                            <li><Link to="/editar/produtos/1">Produto - 1</Link></li>
-                            <li><Link to="/editar/produtos/2">Produto - 2</Link></li>
-                            <li><Link to="/editar/produtos/3">Produto - 3</Link></li>
                         </ul>
                 </header>
             </>
