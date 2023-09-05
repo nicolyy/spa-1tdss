@@ -4,7 +4,7 @@ import App from './App.jsx'
 
 
 //BLOCO DE ROTAS
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import Home from './routes/Home/index.jsx';
 import Produtos from './routes/Produtos/index.jsx';
 import EditarProdutos from './routes/EditarProdutos/index.jsx';
@@ -21,9 +21,10 @@ const router = createBrowserRouter([
         { path: '/', element: <Home /> },
         { path: '/produtos', element: <Produtos /> },
         { path: '/editar/produtos/:id', element: <EditarProdutos /> },
-        { path: '/excluir/produtos/:id', element: <ExcluirProdutos /> },
+        { path: '/antiga', element: <Navigate to="/" />},
+  
       ]
-  },
+  }
 ])
 
 //BLOCO DE ROTAS
