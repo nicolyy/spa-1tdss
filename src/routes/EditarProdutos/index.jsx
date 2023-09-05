@@ -1,3 +1,4 @@
+import {useNavigate, useParams} from "react-router-dom"
 import { listaProdutos } from "../../components/listaProdutos"
 
 export default function EditarProdutos() {
@@ -6,7 +7,7 @@ export default function EditarProdutos() {
     const navegacao = useNavigate()
     const { id } = useParams()
 
-    const proc = lista.filter((produto) => produto.id === id)
+    const proc = lista.filter((produto) => produto.id == id)
     const produto = proc[0]
 
     const salvar = () => {
